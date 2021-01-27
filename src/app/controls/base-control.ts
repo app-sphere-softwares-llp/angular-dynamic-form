@@ -1,7 +1,8 @@
-import { Injectable, OnInit, Input } from '@angular/core';
+import { Injectable, OnInit, Input, Directive } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import {  ViewModelProperty } from './controls.model';
 
+@Directive()
 @Injectable()
 export abstract class BaseControl implements OnInit {
   @Input() viewModelProperty: ViewModelProperty;
