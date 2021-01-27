@@ -1,0 +1,12 @@
+
+<div [formGroup]="detailsForm" >
+    <label>{{controlLabel}}</label>
+    <small><b>{{description}}</b></small>
+    <input [formControlName]="controlKey" class="form-control">
+	<select>
+    <option >Select</option>
+      <option *ngFor="let item of controlOptions;let i = index" [value]="item.value" [selected]="i == 0"  >
+        {{item.label}}
+      </option>
+    </select>
+</div>

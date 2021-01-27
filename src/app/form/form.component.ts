@@ -23,6 +23,7 @@ export class FormComponent implements OnInit {
   private loadData() {
     forkJoin(
       this.service.getMetadata(),
+      //this.service.getMetaDataApart()
       this.service.getData()
     ).subscribe(result => {
       this.detail = {} as RaptorDetailModel;

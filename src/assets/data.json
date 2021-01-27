@@ -3,5 +3,6 @@
   "Surname": "Surname",
   "BirthDate": null,
   "TermsOfService": false,
-  "Id": 0
+  "Id": 0,
+  "Select":null
 }

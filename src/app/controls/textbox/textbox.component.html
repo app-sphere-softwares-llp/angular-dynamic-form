@@ -1,4 +1,8 @@
 <div  class="form-group mb-1" [ngClass]="{'has-danger': !isValid}" [formGroup]="detailsForm">
     <label>{{controlLabel}}</label>
     <input type="text" [formControlName]="controlKey" class="form-control">
+    <div *ngFor="let item of record;let i = index">{{item.sub_category_description}}</div>
 </div>
+<!-- <div> <label>Record</label>
+    <p></p>
+</div> -->

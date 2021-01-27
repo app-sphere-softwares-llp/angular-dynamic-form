@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "aot": true,
+            "aot": false,
             "outputPath": "dist/DynamicForm",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -138,5 +138,8 @@
       }
     }
   },
-  "defaultProject": "DynamicForm"
+  "defaultProject": "DynamicForm",
+  "cli": {
+    "analytics": false
+  }
 }

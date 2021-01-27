@@ -7,4 +7,6 @@ import { BaseControl } from '../base-control';
 })
 export class TextboxComponent
   extends BaseControl {
+
+    isValid
 }

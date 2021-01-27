@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ScrollToInvalidFieldDirective } from './form/scroll-to-invalid-field.directive';
 import { DateComponent } from './controls/date/date.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { DropdownComponent } from './controls/dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     TextboxComponent,
     CheckboxComponent,
     DateComponent,
+    DropdownComponent,
     FormComponent,
     ControlContainerComponent,
     ScrollToInvalidFieldDirective

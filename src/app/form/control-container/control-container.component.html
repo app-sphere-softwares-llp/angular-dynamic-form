@@ -11,6 +11,10 @@
     <app-date [detailsForm]="detailsForm" [viewModelProperty]="viewModelProperty">
     </app-date>
   </ng-container>
+  <ng-container *ngSwitchCase="'dropdown'">
+    <app-dropdown [detailsForm]="detailsForm" [viewModelProperty]="viewModelProperty">
+    </app-dropdown>
+  </ng-container>
 </ng-container>
 
 <ng-container *ngIf="this.detailsForm.get(this.viewModelProperty.key).touched || this.detailsForm.get(this.viewModelProperty.key).dirty">

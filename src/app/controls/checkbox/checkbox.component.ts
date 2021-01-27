@@ -7,4 +7,5 @@ import { BaseControl } from '../base-control';
 })
 export class CheckboxComponent
   extends BaseControl {
+    isValid
 }

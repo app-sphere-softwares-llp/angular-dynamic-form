@@ -1,0 +1,24 @@
+{ 
+    "type":"object",
+    "properties": 
+        {
+        "Technical Infrastructure":{
+        "category_display_order integer": "1",
+            "data": [
+                {
+                    "sub_category": "Hardware Platform",
+                    "sub_category_description": "This is a Information for Hardware Platform 1"
+                },
+                {
+                    "sub_category": "Hardware Platform",
+                    "sub_category_description": "This is a Information for Hardware Platform 2"
+                }
+            ],
+            "uiControlType": "textbox",
+            "type": "System.String",
+            "order": 0,
+            "displayName": "Name",
+            "placeholder": "NamePlaceHolder"
+        }
+    }   
+}

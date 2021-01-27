@@ -9,6 +9,10 @@ export class FormService {
     return this.httpClient.get('../../assets/meta-data.json');
   }
 
+  // public getMetaDataApart(){
+  //   return this.httpClient.get('../../assets/apart.json');
+  // }
+
   public getData() {
     return this.httpClient.get('../../assets/data.json');
   }

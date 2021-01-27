@@ -267,6 +267,35 @@
       "order": 5,
       "displayName": "I agree to the terms of service",
       "placeholder": ""
-    }
+    },
+    "Select": {
+      "arrayOfRecord":[{ "value": 1, "label": "Java" },
+        { "value": 2, "label": "Python" },
+        { "value": 3, "label": "Android" }],
+      "description":"hello", 
+      "uiControlType": "dropdown",
+      "type": "System.String",
+      "order": 4,
+      "displayName": "select any value",
+      "placeholder": "selct value"
+    },
+    "Technical Infrastructure":{
+      "category_display_order integer": "1",
+          "data": [
+              {
+                  "sub_category": "Hardware Platform",
+                  "sub_category_description": "This is a Information for Hardware Platform 1"
+              },
+              {
+                  "sub_category": "Hardware Platform",
+                  "sub_category_description": "This is a Information for Hardware Platform 2"
+              }
+          ],
+          "uiControlType": "textbox",
+          "type": "System.String",
+          "order": 0,
+          "displayName": "Name",
+          "placeholder": "NamePlaceHolder"
+      }
   }
 }
